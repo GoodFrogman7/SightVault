@@ -15,7 +15,7 @@ This is the current, QA-fixed project, with a consistent snapshot of the 62-imag
 Windows source location:
 
 ```text
-C:\Users\digvi\OneDrive\Documents\ChatGPT\Vibathon 2
+%USERPROFILE%\OneDrive\Documents\ChatGPT\Vibathon 2
 ```
 
 The original project and its running service have not been changed by this handoff. The database here was copied using SQLite's backup API. It includes only the demo collection, its stored image copies, thumbnails, OCR and embeddings.

@@ -359,7 +359,7 @@
     "with_ocr": 61,
     "folders": [
       {
-        "folder": "C:\\Users\\digvi\\OneDrive\\Documents\\ChatGPT\\Vibathon 2\\samples",
+        "folder": "%USERPROFILE%\\OneDrive\\Documents\\ChatGPT\\Vibathon 2\\samples",
         "count": 62
       }
     ]

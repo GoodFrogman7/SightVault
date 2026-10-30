@@ -13,13 +13,13 @@ Move the folder outside a synced directory while developing if convenient. Do no
 Copy this Windows folder, including its dot-prefixed name, into the Mac project root:
 
 ```text
-C:\Users\digvi\OneDrive\Documents\ChatGPT\Vibathon 2\.models
+%USERPROFILE%\OneDrive\Documents\ChatGPT\Vibathon 2\.models
 ```
 
 Use a drive/file-transfer tool that supports files above 4 GB; some model files may exceed limits of older filesystems. `Copy-Models-To-Drive.ps1` copies only model files listed in the manifest and verifies each source and destination checksum. It never mirrors or deletes other files. Example from Windows:
 
 ```powershell
-& 'C:\path\to\extracted\SightVault\handoff\Copy-Models-To-Drive.ps1' -Destination 'E:\SightVault-Transfer' -ProjectRoot 'C:\Users\digvi\OneDrive\Documents\ChatGPT\Vibathon 2'
+& 'C:\path\to\extracted\SightVault\handoff\Copy-Models-To-Drive.ps1' -Destination 'E:\SightVault-Transfer' -ProjectRoot '%USERPROFILE%\OneDrive\Documents\ChatGPT\Vibathon 2'
 ```
 
 Then copy `SightVault-Transfer/.models` into `~/Projects/SightVault/.models` on Mac. You may instead keep the weights at another stable location and export `SIGHTVAULT_MODELS=/absolute/path/to/.models` before starting. The handoff verifier accepts `--model-root` for that case.
