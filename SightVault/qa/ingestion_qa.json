@@ -158,19 +158,19 @@
     "with_ocr": 9,
     "folders": [
       {
-        "folder": "C:\\Users\\digvi\\AppData\\Local\\sv_qa_tools\\ingest_qa2\\big",
+        "folder": "%USERPROFILE%\\AppData\\Local\\sv_qa_tools\\ingest_qa2\\big",
         "count": 12
       },
       {
-        "folder": "C:\\Users\\digvi\\AppData\\Local\\sv_qa_tools\\ingest_qa2\\crash",
+        "folder": "%USERPROFILE%\\AppData\\Local\\sv_qa_tools\\ingest_qa2\\crash",
         "count": 10
       },
       {
-        "folder": "C:\\Users\\digvi\\AppData\\Local\\sv_qa_tools\\ingest_qa2\\one",
+        "folder": "%USERPROFILE%\\AppData\\Local\\sv_qa_tools\\ingest_qa2\\one",
         "count": 1
       },
       {
-        "folder": "C:\\Users\\digvi\\AppData\\Local\\sv_qa_tools\\ingest_qa2\\pics",
+        "folder": "%USERPROFILE%\\AppData\\Local\\sv_qa_tools\\ingest_qa2\\pics",
         "count": 9
       }
     ]

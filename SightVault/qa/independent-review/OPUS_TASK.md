@@ -1,6 +1,6 @@
 Codex remains the MAIN orchestrator. You are the independent Claude Opus 5.5 HIGH QA lead. Spawn exactly ONE sonnet-qa subagent using the supplied definition (claude-sonnet-5-5, effort xhigh). Do not spawn Explore, Plan, other agents, or a second Sonnet. Confirm the invoked model/effort in available runtime metadata; do not claim execution settings solely from self-description. No model substitutions.
 
-Project: /Users/ddddd-433/Documents/ChatGPT/vibathon-mac/SightVault. Read AGENTS.md, READ_ME_FIRST.md, handoff/ORCHESTRATOR_PROMPT.md, handoff/AGENT_TASKS.md, MAC_QA_REPORT.md and source/tests. Current user instructions supersede the historical Luna/AGY worker choices.
+Project: ~/Documents/ChatGPT/vibathon-mac/SightVault. Read AGENTS.md, READ_ME_FIRST.md, handoff/ORCHESTRATOR_PROMPT.md, handoff/AGENT_TASKS.md, MAC_QA_REPORT.md and source/tests. Current user instructions supersede the historical Luna/AGY worker choices.
 
 Conduct a deep independent QA: search ranking and earliest match across the entire corpus, Unicode/exact queries, date extremes/timezones/DST, model status and failure recovery, quantized MLX adapters, numerical embedding validation, device labels, ingestion cancellation/duplicates/renames/crash consistency, API input/origin validation, packaging safety and UI async race conditions. Do not trust historical pass claims. Identify supported defects, not speculative warnings.
 

@@ -50,9 +50,9 @@
     "answer": "Visible: Error \"OutofMemoryError\" in training.py line 87. Visible facts: Batch size 64, sequence length 4096. Likely causes: High GPU memory usage (12 GiB total). Visible cause: Excess memory (96 MiB free). Visible fact: Process holds 11.62 GiB.",
     "evidence": {
       "id": 52,
-      "filepath": "/Users/ddddd-433/Documents/ChatGPT/vibathon-mac/SightVault/samples/terminal_cuda_02.png",
+      "filepath": "~/Documents/ChatGPT/vibathon-mac/SightVault/samples/terminal_cuda_02.png",
       "filename": "terminal_cuda_02.png",
-      "folder": "/Users/ddddd-433/Documents/ChatGPT/vibathon-mac/SightVault/samples",
+      "folder": "~/Documents/ChatGPT/vibathon-mac/SightVault/samples",
       "sha256": "c5a108492c880841cabdd534b54e68282c9fc18bb88e9ccc6f3853caacd5a87d",
       "size": 49760,
       "mtime_ns": 1792424040000000000,
